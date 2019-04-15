@@ -14,6 +14,7 @@
 		CE26AFF22264C54F00477582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE26AFF02264C54F00477582 /* LaunchScreen.storyboard */; };
 		CE26AFFD2264C54F00477582 /* mapsForLeeUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26AFFC2264C54F00477582 /* mapsForLeeUTests.swift */; };
 		CE26B0082264C54F00477582 /* mapsForLeeUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26B0072264C54F00477582 /* mapsForLeeUUITests.swift */; };
+		CE26B01B2264CCE400477582 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26B01A2264CCE400477582 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE26B0032264C54F00477582 /* mapsForLeeUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapsForLeeUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE26B0072264C54F00477582 /* mapsForLeeUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapsForLeeUUITests.swift; sourceTree = "<group>"; };
 		CE26B0092264C54F00477582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE26B01A2264CCE400477582 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE26B01B2264CCE400477582 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				CE26AFFB2264C54F00477582 /* mapsForLeeUTests */,
 				CE26B0062264C54F00477582 /* mapsForLeeUUITests */,
 				CE26AFE52264C54D00477582 /* Products */,
+				CE26B0192264CCE400477582 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				CE26B0092264C54F00477582 /* Info.plist */,
 			);
 			path = mapsForLeeUUITests;
+			sourceTree = "<group>";
+		};
+		CE26B0192264CCE400477582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE26B01A2264CCE400477582 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
